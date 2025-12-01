@@ -7,7 +7,7 @@ echo "start time:$START_TIME"
 
 sleep 10
 
-END_TIME=$(date +%S)
+END_TIME=$(date +%s)
 
 echo "end time:$END_TIME"
 
