@@ -1,6 +1,14 @@
 #!/bin/bash
 
 
-DATE=$(date)
+START_TIME=$(date +%s)
 
-echo "time stamp executed: $DATE"
+sleep 10 &
+
+END_TIME=$(DATE +%S)
+
+TOTAL_TIME=$($END_TIME-$START_TIME)
+
+
+
+echo "time stamp executed in:$TOTAL_TIME seconds"
