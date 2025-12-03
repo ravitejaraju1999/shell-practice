@@ -3,4 +3,5 @@
 echo "all variables passed to the script:$@"
 echo "all variables passed  to the script:$*"
 
-echo "current working directory:$pwd"
+echo "current working directory:$PWD"
+echo "who is running this:$USER"
