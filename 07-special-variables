@@ -8,7 +8,7 @@ echo "who is running this:$USER"
 
 echo "pid of the script:$$"
 
-sleep 20
+sleep 20 &
 
 echo "pid of the last command:$!"
 
