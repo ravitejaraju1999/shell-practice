@@ -10,6 +10,9 @@
 
 number1=$a
 number2=$b
-sum=$(($number1+$number2))
 
-echo "sum is :$sum"
+
+echo $number1 $number2
+#sum=$((number1+number2))
+
+#echo "sum is :$sum"
